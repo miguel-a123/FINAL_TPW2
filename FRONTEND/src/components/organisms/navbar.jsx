@@ -10,14 +10,14 @@ function Navbar() {
     },
     {
       text: 'Motos',
-      path: '/motorcycles'
+      path: '/motos'
     }
   ]
 
   const roles = [
     {
       text: 'Cliente',
-      path: '/register/cliente'
+      path: '/Cliente|'
     },
     {
       text: 'Administrador',

@@ -3,7 +3,7 @@ import { HomePage } from "./components/pages/homePage"
 import { Navbar } from "./components/organisms/navbar"
 import { LoginPage } from "./components/pages/loginPage"
 import { RegisterClientePage } from "./components/pages/registerClientePage"
-import { MotosCatalogPage } from "./components/pages/MotosCatalogPage"
+import MotoCatalogoPagina from "./components/pages/MotoCatalogoPagina"
 
 function App() {
 
@@ -14,7 +14,7 @@ function App() {
         <Route exact path="/" element={<HomePage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register/cliente" element={<RegisterClientePage />} />
-        <Route path="/motorcycles" element={<MotosCatalogPage />} />
+        <Route path="/motos" element={<MotoCatalogoPagina />} />
       </Routes>
     </>
   )
